@@ -79,12 +79,12 @@ function countEvenNumbers(arrayOfNumbers) {
         14,
         93,
         84,
-        14,
+        
         77,
         35,
         7,
         29,
-        64
+        
     ]
   const even = numbers.filter(number=>{
     return number % 2 === 0;
