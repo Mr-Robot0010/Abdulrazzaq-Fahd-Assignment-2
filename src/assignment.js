@@ -39,35 +39,14 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-   const numbers = [
-        17,
-        0,
-        67,
-        41,
-        49,
-        21,
-        1,
-        86,
-        76,
-        2,
-        54,
-        14,
-        93,
-        84,
-        14,
-        77,
-        35,
-        7,
-        29,
-        64
-    ]
-  const even = numbers.filter(number=>{
-    return number % 2 === 0;
-  })
- 
-  return even.length
   
-    return arrayOfNumbers.length;
+ let array = []
+  for(i=0;i<arrayOfNumbers.length;i++){
+    if(arrayOfNumbers[i]%2 === 0){
+      array++
+    }
+  }
+  return array
      }
 assignment.countEvenNumbers = countEvenNumbers;
 
@@ -86,6 +65,7 @@ assignment.countEvenNumbers = countEvenNumbers;
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
+  
   
   
     return arrayOfNumbers;
