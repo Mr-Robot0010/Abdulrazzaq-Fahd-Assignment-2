@@ -16,12 +16,12 @@ const assignment = {};
 
 function sumOfNumbers(arrayOfNumbers) {
  
-   sumOfNumbers=0;
+   sum=0;
   for(let i=0; i<arrayOfNumbers.length; i++){
-    sumOfNumbers+=arrayOfNumbers[i];
+    sum+=arrayOfNumbers[i];
   }
   
-    return sumOfNumbers;
+    return sum;
 }
 
 
@@ -40,13 +40,13 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
   
- let array = []
+ let even = []
   for(i=0;i<arrayOfNumbers.length;i++){
     if(arrayOfNumbers[i]%2 === 0){
-      array++
+      even++
     }
   }
-  return array
+  return even
      }
 assignment.countEvenNumbers = countEvenNumbers;
 
